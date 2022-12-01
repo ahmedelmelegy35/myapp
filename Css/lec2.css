@@ -1,0 +1,168 @@
+/*147line*/
+/*********************** start main rulez ***********************/
+body{ background-color:#FFF;font-family: Arial, Helvetica, sans-serif;}
+.container{width:60rem;margin:auto;}
+p{color:rgb(72, 155, 116);line-height: 1.7;}
+h2{color:rgb(75, 85, 87);font-size: 1.9rem;}
+span{color:rgb(202, 201, 201);}
+/*********************** end main rulez ***********************/
+/*side start*/
+.side{position: fixed;top: 35%;
+    left: 0%;margin-bottom: 1.rem;
+    width: 10%;margin-left: -6rem;
+    display: flex;flex-direction: column;}
+.side a{text-decoration: none;border-radius: 0.28rem;
+    color: white;height: 1.6rem;
+    text-align: left;margin-top: 5px;
+    padding: 7px 0 0 5px;
+    transition:0.6s all ease-in-out;
+
+}
+.side a:hover{margin-left: 120px;width: 100%;transition:1.5sec all}
+/*side end*/
+/***********************startheader***********************/
+header .slider{
+    height:29rem;background:#30336b9a;background:url('../images/digital6.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+header .slider .intro{padding-top:200px;}
+header .slider .intro h2
+    {
+        margin:1rem auto;font-size:2.5rem;width:37.5rem;
+        border-top:.25rem solid #fff;padding:.25rem 0;
+        border-bottom:0.25rem solid #fff;font-weight:bold;
+    }
+header .slider .intro button
+    {
+        margin:1.25rem;background:none;font-size:1.25rem;padding:0.625rem 1.5rem;
+        border:0.125rem solid #fff;font-weight:bold;
+    }
+header nav{background-color:rgb(37, 47, 49);text-transform:capitalize;}
+header nav h2:first-of-type{font-size: 1.5rem;justify-self: flex-start;width: 25%;}
+header nav .container {display: flex;}
+header nav h2::first-letter{background:rgb(75, 85, 87);padding:0.25rem 0.5rem;}
+header nav span{color:rgb(34, 190, 114);}
+header nav ul{list-style:none;
+    
+    display: flex;text-align: right;width: 70%;justify-content: flex-end;}
+header nav ul li{padding:0.625rem;}
+header nav ul li a{text-decoration:none;color: white;}
+header nav ul li a:hover{color:rgb(45, 204, 112);}
+/*endheader*/
+
+/*********************start features************************/
+.features{padding-top:10px;padding-bottom:10px;}
+.features .box
+{color:#36C774;width:33.33333%;height:13rem;line-height:1.6;}
+.features h2{text-transform:capitalize;margin-bottom: 0;}
+.features .box p{text-transform:capitalize;text-align:justify;margin:10px;}
+/**********************end features**************************/
+
+/**********************about me start************************/
+.aboutme{background-color:rgb(242, 242, 242);text-align: justify;}
+.aboutme .image{width:37%;padding-top: 3.75%;}
+.aboutme .image img{width:100%;height:100%;box-shadow: 3px 3px 2px #000,-3px -3px 2px #000 ;border: 8px solid #fff;}
+.aboutme .info{width:57%;margin-left:4%;}
+.aboutme .info h2{margin-top: 1.5rem;margin-bottom: 0;}
+.aboutme .info h2, .aboutme .info h3{color:rgb(75, 85, 87);}
+.aboutme .info .modify{text-transform:capitalize;}
+.aboutme .info .modify p{color:#777;margin-top: 0.5rem;}
+.aboutme .info .hobbies .content{width:46%;margin-right:4%}
+.aboutme .info .hobbies .icon{width:12%;margin-right: 10px;}
+.aboutme .info .hobbies .icon i{padding-top:2.1rem;color: green;}
+.aboutme .info .hobbies .icon i:hover{color: #899449;}
+.aboutme .info .hobbies .icontext{width:84%;}
+.aboutme .info .hobbies .icontext p{margin-top:0px;}
+.aboutme .info .hobbies .icontext h3{margin-bottom:7px;}
+.aboutme .info .hobbies p{color:#777;}
+/********************************about me end************************************/
+
+/********************************my skills start********************************/
+.myskills {padding-top:30px;padding-left:0px;margin-bottom: 45px;}
+.myskills .skills , .myskills .progress{width:47.5%;}
+.myskills .skills{margin-right: 5%;}
+.myskills .progress h2{margin-bottom: 0px;padding-top: 10px;font-size: 25px;}
+.myskills .progress .color{margin-top:5px;margin-bottom: 15x;background-color: rgb(242, 242, 242);
+    height:23px;line-height: 23px;
+}
+.myskills .progress span{background-color:rgb(51, 204, 111);text-align: right;
+    height:23px;font-weight: bold;display: block;
+}
+.myskills .progress div:last-of-type{margin-bottom: 25px;}
+/***********************my skills end***********************/
+
+/***********************resume start***********************/
+.resume{background-color:rgb(242, 242, 242);padding:50px 0px 50px 0px;}
+.resume h2{font-size: 32px;}
+.resume p {color:#777;}
+.resume button{margin:20px 0 20px 0}
+/***********************resume end***********************/
+
+/***********************MY EDUCATION START***********************/
+.my-education{margin-top:40px;}
+.my-education .details{width:47%;margin-right: 3%;}
+.my-education .certificates {width:50%;margin-top: 40px;margin-bottom: 20px;}
+.my-education h2{margin-bottom:-7px;}
+.my-education .certificates hr{margin: 30px 0px 25px 0px;background-color: rgb(190, 188, 188);height:.85px;border:0}
+/***********************MY EDUCATION END***********************/
+
+/***********************TESTMONIALS START***********************/
+.testmonials {background-color:rgb(242, 242, 242);padding:50px 0px 50px 0px;margin-top: 20px;}
+.testmonials q{color:#777;font:italic bold 18px/1.7 arial,tahoma;}
+.testmonials ul{list-style: none;cursor: pointer;margin: 10px 46px 0px 0px;}
+.testmonials ul li{ width: 15px;height:15px;border: 2px solid rgb(51, 204, 111);display:inline-block;}
+.testmonials ul .active , .testmonials ul li:hover{background-color: rgb(51, 204, 111);}
+/***********************TESTMONIALS END***********************/
+
+/***********************portfolio start***********************/
+.portfolio{padding-top: 30px;}
+.portfolio .ourwork{margin:50px 0 50px 0;}
+.portfolio .ourwork >div{width:33.333%;margin-bottom:8px;float: left;}
+.portfolio .ourwork div img{
+    width:92%;margin:10px;padding: 3px;
+    background-color: #FFF;border:1px solid #CCC;
+    box-shadow: 10px 10px 12px #CCC;cursor: pointer;}
+/***********************portfolio end***********************/
+
+/***********************contactme start***********************/
+.contactme{background-color:rgb(37, 47, 49);color:rgb(75, 85, 87);text-align: justify;padding-top: 25px;}
+.contactme .modificationleft,
+.contactme .modificationright{
+    width:47%;
+}
+.contactme .modificationleft h2 span{border-bottom: 3px solid #eb2f06;margin-bottom: 10px;}
+.contactme p{color:rgb(75, 85, 87);}
+.contactme .modificationleft{margin-right: 6%;}
+.contactme .modificationright input{display: block;background-color: rgb(75, 85, 87);border: none;
+    margin-bottom: 20px;color:rgb(202, 201, 201);
+}
+.contactme .modificationright {margin-top:78px}
+.contactme .modificationright button{
+    border: none;background-color: #242020;font-size: 20px;
+    padding:10px 20px;font-weight: bold;margin:20px 0 65px 0px;
+}
+.contactme .modificationright textarea{display: block;background-color: rgb(75, 85, 87);border: none;width: 80%;height:200px;color:rgb(202, 201, 201);}
+/***********************contactme end***********************/
+
+/***********************footer start***********************/
+.footer {background-color: rgb(25, 30, 34);margin:0;padding:10px 0 15px 0;text-align: center;}
+.footer p{color: rgb(75, 85, 87);display: inline-block;margin:0 0 10px 0px;}
+.footer .application i{background: #e74c3c;height: 30px;width: 30px;padding: 17px 10px 0px 10px;border-radius: 6px;
+    border-bottom: 5px solid #f0c7c3;margin-left: 10px;font-size: 25px;color: #fff;transition: .5sec all;}
+.footer .application i:hover{border-bottom: 2px solid #c0392b;opacity:0.8;}
+/***********************footer end***********************/
+
+/***********************start my framework***********************/
+.my-button{
+    background:none;color:rgb(51, 204, 111);font-size: 20px;
+    border:2px solid rgb(51, 204, 111);padding:10px 20px;font-weight: bold;
+    cursor: pointer;
+}
+.my-span{background-color: rgb(51, 204, 111);padding:5px 10px;color:#fff}
+.my-p{margin:0px;}
+.fl-left{float: left;}
+.align-center{text-align: center;}
+.flow-hidden{overflow: hidden;}
+.color-white{color:#fff}
+/***********************end my framework***********************/
